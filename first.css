@@ -1,0 +1,221 @@
+#center{
+    background-color: white;
+    width: 100%;
+
+    text-align: center;
+    /*margin: auto;*/
+
+
+}
+.button{
+    display: inline-block;
+    background-color:#BDB76B;
+    width: 50;
+    height: 50;
+    font-size: 30;
+    margin: 0 -2 -1 -2;
+    padding: 20 12 3 12;
+    font-weight: 600;
+    border: 4px double black;
+    /*float: left;*/
+}
+.button:hover{
+    display: inline-block;
+    background-color:#BDB76B;
+    width: 50;
+    height: 50;
+    font-size: 30;
+    margin: 0 -2 -1 -2;
+    padding: 20 12 3 12;
+    font-weight: 600;
+    border: 4px double white;
+    /*float: left;*/
+}
+.button:active{
+    display: inline-block;
+    background-color:red;
+    width: 50;
+    height: 50;
+    font-size: 30;
+    margin: 0 -2 -1 -2;
+    padding: 20 12 3 12;
+    font-weight: 600;
+    border: 4px double white;
+    /*float: left;*/
+}
+.buttons{
+    display: inline-block;
+    background-color:#BDB76B;
+    width: 50;
+    height: 50;
+    font-size: 40;
+    margin: 0 -2 -1 -2;
+    padding: 10 12 13 12;
+    font-weight: 600;
+    border: 4px double black;
+    /*float: left;*/
+}
+.buttons:hover{
+    display: inline-block;
+    background-color:#BDB76B;
+    width: 50;
+    height: 50;
+    font-size: 40;
+    margin: 0 -2 -1 -2;
+    padding: 10 12 13 12;
+    font-weight: 600;
+    border: 4px double white;
+    /*float: left;*/
+}
+.buttons:active{
+    display: inline-block;
+    background-color:red;
+    width: 50;
+    height: 50;
+    font-size: 40;
+    margin: 0 -2 -1 -2;
+    padding: 10 12 13 12;
+    font-weight: 600;
+    border: 4px double black;
+    /*float: left;*/
+}
+
+#merg{
+
+    margin: -80 82 0 0;
+    /*padding: 10 12 13 12;*/
+
+}
+
+.button_result{
+    display: inline-block;
+    vertical-align: top;
+    background-color: #BDB76B;
+    ;
+    width: 50;
+    height: 100;
+    font-size: 30;
+    margin: 0 -2 -1 -2;
+    padding: 50 12 3 12;
+    font-weight: 600;
+    border: 4px double black;
+    /*float: left;*/
+}
+.button_result:hover{
+    display: inline-block;
+    vertical-align: top;
+    background-color: #BDB76B;
+    ;
+    width: 50;
+    height: 100;
+    font-size: 30;
+    margin: 0 -2 -1 -2;
+    padding: 50 12 3 12;
+    font-weight: 600;
+    border: 4px double white;
+    /*float: left;*/
+}
+.button_result:active{
+    display: inline-block;
+    vertical-align: top;
+    background-color: red;
+    ;
+    width: 50;
+    height: 100;
+    font-size: 30;
+    margin: 0 -2 -1 -2;
+    padding: 50 12 3 12;
+    font-weight: 600;
+    border: 4px double black;
+    /*float: left;*/
+}
+.button_null{
+    display: inline-block;
+    background-color: #BDB76B;
+    ;
+    width: 132;
+    height: 50;
+    font-size: 30;
+    margin: 0 -2 -1 -2;
+    padding: 20 12 3 12;
+    font-weight: 600;
+    border: 4px double black;
+    /*     float: left;*/
+}
+.button_null:hover{
+    display: inline-block;
+    background-color: #BDB76B;
+    ;
+    width: 132;
+    height: 50;
+    font-size: 30;
+    margin: 0 -2 -1 -2;
+    padding: 20 12 3 12;
+    font-weight: 600;
+    border: 4px double white;
+    /*     float: left;*/
+}
+.button_null:active{
+    display: inline-block;
+    background-color: red;
+    ;
+    width: 132;
+    height: 50;
+    font-size: 30;
+    margin: 0 -2 -1 -2;
+    padding: 20 12 3 12;
+    font-weight: 600;
+    border: 4px double black;
+    /*     float: left;*/
+
+}
+.outresult{
+    display: inline-block;
+    background-color: #EEE8AA	;
+    width: 392px;
+    height: 70;
+    font-size: 34px;
+    margin: 0 0 0 0;
+    padding: 5 10 5 0;
+    font-weight: 600;
+    color: black;
+    text-align: right;
+    border: 4px double black;
+    border-top: none;
+    /*float: left;*/
+}
+.outall{
+    display: inline-block;
+    background-color: #EEE8AA	;
+    width: 392px;
+    height: 25;
+    font-size: 18px;
+    margin: 0 0 0 0;
+    padding: 3 10 0 0;
+    font-weight: 600;
+    color: black;
+    text-align: right;
+    border: 4px double black;
+    border-bottom: none;
+    /*float: left;*/
+}
+
+.outm{
+    display: none;
+    position: absolute;
+    background-color: #EEE8AA;
+    width: 35px;
+    height: 35px;
+    font-size: 35px;
+    margin: 35px -190px;
+    padding: 0 0 0 0;
+    font-weight: 600;
+    color: red;
+    text-align: right;
+    /*border: 4px double black;*/
+    border-bottom: none;
+    /*float: left;*/
+}
+#left{
+    text-align: left;
+}
